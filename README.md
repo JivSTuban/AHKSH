@@ -12,16 +12,14 @@ Loops and Conditionals
 ::fori::
 
 Output:
-java
-Copy code
+
 for (int i = 0; i < ; i++) {
 }
 
 ::ifs::
 
 Output:
-java
-Copy code
+
 if() {
 } else if() {
 } else {
@@ -30,24 +28,22 @@ if() {
 ::if::
 
 Output:
-java
-Copy code
+
+
 if() {
 }
 
 ::else::
 
 Output:
-java
-Copy code
+
 else {
 }
 
 ::while::
 
 Output:
-java
-Copy code
+
 while(true) {
 }
 
@@ -56,8 +52,7 @@ Main Method and Class
 ::psvm::
 
 Output:
-java
-Copy code
+
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 }
@@ -65,8 +60,7 @@ public static void main(String[] args) {
 ::pc::
 
 Output:
-java
-Copy code
+
 import java.util.*;
 public class {
 }
@@ -98,8 +92,7 @@ Property Definitions
 ::props::
 
 Output:
-java
-Copy code
+
 private String stringProperty;
 public String getStringProperty() {
     return stringProperty;
@@ -110,8 +103,7 @@ public void setStringProperty(String stringProperty) {
 ::propb::
 
 Output:
-java
-Copy code
+
 private boolean booleanProperty;
 public boolean getBooleanProperty() {
     return booleanProperty;
@@ -123,8 +115,7 @@ public void setBooleanProperty(boolean booleanProperty) {
 ::propd::
 
 Output:
-java
-Copy code
+
 private double doubleProperty;
 public double getDoubleProperty() {
     return doubleProperty;
@@ -136,8 +127,7 @@ public void setDoubleProperty(double doubleProperty) {
 ::propi::
 
 Output:
-java
-Copy code
+
 private int intProperty;
 public int getIntProperty() {
     return intProperty;
@@ -149,8 +139,7 @@ public void setIntProperty(int intProperty) {
 ::propc::
 
 Output:
-java
-Copy code
+
 private char charProperty;
 public char getCharProperty() {
     return charProperty;
@@ -163,8 +152,7 @@ Method Definitions
 ::funcs::
 
 Output:
-java
-Copy code
+
 public String functionName() {
     return ;
 }
@@ -172,8 +160,7 @@ public String functionName() {
 ::funcv::
 
 Output:
-java
-Copy code
+
 public void functionName() {
     
 }
@@ -181,8 +168,7 @@ public void functionName() {
 ::funci::
 
 Output:
-java
-Copy code
+
 public int functionName() {
     return ;
 }
@@ -190,8 +176,7 @@ public int functionName() {
 ::funcd::
 
 Output:
-java
-Copy code
+
 public double functionName() {
     return ;
 }
@@ -199,8 +184,7 @@ public double functionName() {
 ::funcb::
 
 Output:
-java
-Copy code
+
 public boolean functionName() {
     return ;
 }
@@ -209,43 +193,37 @@ Public Property Definitions
 ::pub::
 
 Output:
-java
-Copy code
+
 public boolean booleanProperty;
 
 ::pus::
 
 Output:
-java
-Copy code
+
 public String stringProperty;
 
 ::pui::
 
 Output:
-java
-Copy code
+
 public int intProperty;
 
 ::pud::
 
 Output:
-java
-Copy code
+
 public double doubleProperty;
 
 ::puc::
 
 Output:
-java
-Copy code
+
 public char charProperty;
 
 ::tostring::
 
 Output:
-java
-Copy code
+
 @Override
 public String toString() {
     return "ClassName{" 
@@ -259,8 +237,7 @@ public String toString() {
 ::cons::
 
 Output:
-java
-Copy code
+
 public ClassName(int intProperty, char charProperty, String stringProperty, double doubleProperty) {
     this.intProperty = intProperty;
     this.charProperty = charProperty;
@@ -271,8 +248,7 @@ public ClassName(int intProperty, char charProperty, String stringProperty, doub
 ::con::
 
 Output:
-java
-Copy code
+
 public ClassName(int intProperty) {
     this.intProperty = intProperty;
 }
